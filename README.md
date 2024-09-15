@@ -9,3 +9,6 @@ Place the `momentum.js` in the root of your site and include it where you want:
 ```<script src="/momentum.js"></script>```
 
 It does not matter if placed in the header or the footer.
+
+
+If you have a simple page without scrollable content inside, I advise you to use `momentum_page.js` this works very well and (for now) is bug-free, the standard `momentum.js` is not really bug-free for now (some browsers in some situations block the scrolling).
